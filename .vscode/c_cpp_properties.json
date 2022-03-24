@@ -1,0 +1,49 @@
+{
+    "configurations": [
+        {
+            "name": "!!! WARNING !!! AUTO-GENERATED FILE, PLEASE DO NOT MODIFY IT AND USE https://docs.platformio.org/page/projectconf/section_env_build.html#build-flags"
+        },
+        {
+            "name": "Linux",
+            "includePath": [
+                "/home/t969n947/eecs388-final-project-release/eecs388_final_project_release/milestone3/include",
+                "/home/t969n947/eecs388-final-project-release/eecs388_final_project_release/milestone3/src",
+                "/home/t969n947/eecs388-final-project-release/eecs388_final_project_release/milestone3/.pio/build/hifive1-revb",
+                "/home/t969n947/.platformio/packages/framework-freedom-e-sdk/freedom-metal",
+                "/home/t969n947/.platformio/packages/tool-unity",
+                ""
+            ],
+            "browse": {
+                "limitSymbolsToIncludedHeaders": true,
+                "path": [
+                    "/home/t969n947/eecs388-final-project-release/eecs388_final_project_release/milestone3/include",
+                    "/home/t969n947/eecs388-final-project-release/eecs388_final_project_release/milestone3/src",
+                    "/home/t969n947/eecs388-final-project-release/eecs388_final_project_release/milestone3/.pio/build/hifive1-revb",
+                    "/home/t969n947/.platformio/packages/framework-freedom-e-sdk/freedom-metal",
+                    "/home/t969n947/.platformio/packages/tool-unity",
+                    ""
+                ]
+            },
+            "defines": [
+                "PLATFORMIO=50003",
+                "PACKAGE_NAME=\"freedom-metal\"",
+                "PACKAGE_TARNAME=\"freedom-metal\"",
+                "PACKAGE_VERSION=\"v0.1.2\"",
+                "PACKAGE_STRING=\"freedom-metal v0.1.2\"",
+                "PACKAGE=\"freedom-metal\"",
+                "VERSION=\"v0.1.2\"",
+                "MTIME_RATE_HZ_DEF=32768",
+                ""
+            ],
+            "intelliSenseMode": "gcc-x64",
+            "compilerPath": "/home/t969n947/.platformio/packages/toolchain-riscv/bin/riscv64-unknown-elf-gcc",
+            "compilerArgs": [
+                "-march=rv32imac",
+                "-mabi=ilp32",
+                "-mcmodel=medlow",
+                ""
+            ]
+        }
+    ],
+    "version": 4
+}
